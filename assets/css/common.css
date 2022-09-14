@@ -1,0 +1,82 @@
+/* container styles start  */
+.container {
+  width: 100%;
+  padding: 0 1.3rem;
+  margin: auto;
+}
+/* container styles end  */
+
+/* section styles start  */
+section {
+  padding: 100px 0px;
+}
+/* section styles ends here  */
+
+/* common heading styles start  */
+.commonHeading {
+  margin-bottom: 64px;
+}
+.commonHeading label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #808080;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.commonHeading h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  color: #191919;
+  position: relative;
+}
+
+.commonHeading h2 span.lastword {
+  white-space: nowrap;
+}
+.commonHeading h2 span.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #4ca753;
+}
+/* common heading styles end here  */
+
+/* orange common button  */
+.orange-btn {
+  display: inline-block;
+  cursor: pointer;
+  background: #4ca753;
+  border-radius: 30px;
+  padding: 14px;
+  border: 1px solid #4ca753;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+.orange-btn:hover {
+  background-color: #ffffff;
+  color: #4ca753;
+}
+
+.white-btn {
+  display: inline-block;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 48px;
+  padding: 16px;
+  border: 1px solid #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #191919;
+  width: 200px;
+  text-align: center;
+}
+
+/* orange common button end here  */

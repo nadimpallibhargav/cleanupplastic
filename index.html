@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Let's CleanUp</title>  
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet" />  
+  <link href="./assets/css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css">
+</head>
+
+<body>
+
+
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUii3BFTS0i91CRx6hQkovxtxJbqoXvawZoA&usqp=CAU"></a>
+      </div>
+      <div class="header_links">
+        <ul>
+          <li><a href="#aboutus" onclick="scrollToSmoothly(this, 350)">About Us</a></li>
+          <li><a href="#services" onclick="scrollToSmoothly(this, 370)">Our Vision</a></li>
+          <li><a href="#why-us" onclick="scrollToSmoothly(this, 450)">Why Us</a></li>
+        </ul>
+        <div class="header_actions">
+          <a class="orange-btn nav_register" href="" target="_blank">Participate</a>
+        </div>
+      </div>
+      <button class="nav_toggle">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+
+
+  <div class="wrapper">
+    <div id="product__slider">
+      <div class="product__slider-main">
+        <div class="slide">
+          <picture>
+            <source media="(min-width: 992px)" srcset="./assets/images/banner/hotel.webp" />
+            <img src="./assets/images/banner/hotel.webp">
+          </picture>
+          <div class="slider_content">
+            <h2>Western Ghats Welocomes You</h2>
+            <p>home to bird, amphibian, reptile and fish species.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <picture>
+            <source media="(min-width: 992px)" srcset="./assets/images/banner/attraction.webp" />
+            <img src="./assets/images/banner/attraction.webp">
+          </picture>
+          <div class="slider_content">
+            <h2>How Can We Reduce Plastic Pollution?</h2>
+            <p>Because different types of plastics have varying properties, plastic products need to be sorted before they can be recycled.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <picture>
+            <source media="(min-width: 992px)" srcset="./assets/images/banner/corporate.webp" />
+            <img src="./assets/images/banner/corporate.webp">
+          </picture>
+
+          <div class="slider_content">
+            <h2>Play hard</h2>
+            <p>This is a good opportunity to see renowned musicians performing, so don't miss it!</p>
+          </div>
+        </div>
+        <div class="slide">
+          <picture>
+            <source media="(min-width: 992px)" srcset="./assets/images/banner/academy.webp" />
+            <img src="./assets/images/banner/academy.webp">
+          </picture>
+          <div class="slider_content">
+            <h2>Work Hard</h2>
+            <p>We can Reduce Plastic Pollution. </p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <picture>
+            <source media="(min-width: 992px)" srcset="./assets/images/banner/corporate.webp" />
+            <img src="./assets/images/banner/corporate.webp">
+          </picture>
+          <div class="slider_content">
+            <h2>Special Interest Groups</h2>
+            <p>This is a good opportunity to see renowned musicians performing, so don't miss it!</p>
+          </div>
+        </div>
+      </div>
+      <div class="pagination-wrapper">
+        <img src="assets/images/banner/icons/leftarrow.png" class="prev-img" alt="Prev">
+        <img src="assets/images/banner/icons/rightarrow.png" class="next-img" alt="Next">
+      </div>
+      <div class="slider_bottom">
+        <div class="container">
+          <div class="product__slider-thmb">
+            <div class="slide" onclick="thumbClick(this)">
+              <span> <img src="./assets/images/banner/icons/mountains.png"></span>
+              <p>Attractions</p>
+              </a>
+            </div>
+            <div class="slide" onclick="thumbClick(this)">
+              <span> <img src="./assets/images/banner/icons/people.png"></span>
+              <p>Together We Can </p>
+              </a>
+            </div>
+            <div class="slide" onclick="thumbClick(this)">
+              <span> <img src="./assets/images/banner/icons/corparate.png"></span>
+              <p>Concert Activities</p>
+              </a>
+            </div>
+            <div class="slide" onclick="thumbClick(this)">
+              <span> <img src="./assets/images/banner/icons/mortarboard.png"></span>
+              <p>CleanUp Drive</p>
+              </a>
+            </div>
+            <div class="slide" onclick="thumbClick(this)">
+              <span> <img src="./assets/images/banner/icons/location.png"></span>
+              <p>Cleanup Concert</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- <section id="aboutus" class="aboutus">
+    <div class="container">
+      <div class="commonHeading mobileHeading">
+        <label>About us</label>
+        <h2>Great Partnerships Start at <span class="lastword"> <span class="dot"></span></span></h2>
+      </div>
+      <div class="aboutus_details">
+        <div class="aboutus_text">
+          <div class="commonHeading desktopHeading">
+            <label>About us</label>
+            <h2>Great Partnerships Start at <span class="lastword"> <span class="dot"></span></span></h2>
+          </div>
+          <ul>
+            <li><span><img src="assets/images/aboutus/aboutuslist.svg" alt="aboutus Details"></span><label>  strives
+                to offer the best of both worlds- while on one end of the spectrum lies the latest cutting-edge
+                technology giving the customer the power to choose at their discretion, at the other end would be a
+                friendly voice offering a swift yet comfortable way to plan and book as per their unique
+                requirements.</label></li>
+            <li><span><img src="assets/images/aboutus/aboutuslist.svg" alt="aboutus Details"></span><label> Over the
+                years  has diversified from being a B2B reseller platform for contracting hotels and attractions to
+                offering turnkey solutions for end to end event management, inbound & overseas tours and supplementary
+                travel services, going beyond the basics with its attention to detail, signature personalization and
+                highly skilled team of professionals.</label></li>
+          </ul>
+        </div>
+        <div class="aboutus_image">
+          <a href="javascript:void(0)" onclick="modalOpen(this)" data-src="https://www.youtube.com/embed/mFmzHEWKQ5g">
+            <div class="about-overlay"></div>
+            <div class="aboutus_imagewrapper">
+              <img src="assets/images/aboutus/about.gif" alt="aboutus Image">
+            </div>
+            <div class="aboutus_videoicon">
+
+              <span><img src="assets/images/aboutus/videoplay.svg" alt="aboutus video icon"></span>
+              <span>Play Video</span>
+
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="modal">
+    <div class="overlay"></div>
+    <div class="modal-dialog">
+      <div class="modal-body">
+        <div class="modal-close">
+          <svg onclick="hideModal(this)" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z"
+              fill="#EDEDED" />
+          </svg>
+        </div>
+        <iframe id="video" src="" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <section id="services" class="whatwedo">
+    <div class="container">
+      <div class="commonHeading">
+        <label>What We Do</label>
+        <h2>Services Offered At <span class="lastword"> <span class="dot"></span></span></h2>
+      </div>
+      <div class="whatwedo_tabs">
+
+        <ul class="tabs">
+          <li data-solution="hotelsrooms-tab" class="tab active">Hotels Rooms</li>
+          <li data-solution="attractions-tab" class="tab">Activities & Attractions</li>
+          <li data-solution="corporate-tab" class="tab">Corporate / MICE</li>
+          <li data-solution="twohubacademy-tab" class="tab"> Academy</li>
+          <li data-solution="special-tab" class="tab">Special Interest Groups</li>
+        </ul>
+
+        <div class="panels">
+          <div class="panel hotelsrooms-tab active">
+            <div class="panels_details">
+              <div class="panels_imagewrapper">
+                <img src="assets/images/whatwedo/hotelbookings.png" alt="Hotel Bookings">
+              </div>
+              <div class="panels_text">
+                <h4>Hotel Rooms</h4>
+                <p>Widest network of Hotels, over 150,000 rooms across 1000+ locations</p>
+                <a class="white-btn" href="" target="_blank"><span>Explore <img
+                      src="assets/images/whatwedo/explorearrow.svg" alt="arrow"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="panel attractions-tab">
+            <div class="panels_details">
+              <div class="panels_imagewrapper">
+                <img src="assets/images/whatwedo/attractionsactivities.png" alt="Attractions Activities">
+              </div>
+              <div class="panels_text">
+                <h4>Activities & Attractions</h4>
+                <p>Explore and book attractions around the world the best prices</p>
+                <a class="white-btn" href="" target="_blank"><span>Explore <img
+                      src="assets/images/whatwedo/explorearrow.svg" alt="arrow"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="panel corporate-tab">
+            <div class="panels_details">
+              <div class="panels_imagewrapper">
+                <img src="assets/images/whatwedo/corporate.svg" alt="Corporate/MICE">
+              </div>
+              <div class="panels_text">
+                <h4>Corporate/MICE</h4>
+                <p>A one-stop platform for customised solutions for all your travel needs</p>
+                <a class="white-btn" href="" target="_blank"><span>Explore <img
+                      src="assets/images/whatwedo/explorearrow.svg" alt="arrow"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="panel twohubacademy-tab">
+            <div class="panels_details">
+              <div class="panels_imagewrapper">
+                <img src="assets/images/whatwedo/twohubacademy.svg" alt=" Academy">
+              </div>
+              <div class="panels_text">
+                <h4> Academy</h4>
+                <p>A FREE online training platform for travel professionals</p>
+                <a class="white-btn" href="" target="_blank"><span>Explore <img
+                      src="assets/images/whatwedo/explorearrow.svg" alt="arrow"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="panel special-tab">
+            <div class="panels_details">
+              <div class="panels_imagewrapper">
+                <img src="assets/images/whatwedo/specialinterestgroups.svg" alt="Special Interest Groups">
+              </div>
+              <div class="panels_text">
+                <h4>Special Interest Groups</h4>
+                <p>Life changing Journeys</p>
+                <a class="white-btn" href="" target="_blank"><span>Explore <img
+                      src="assets/images/whatwedo/explorearrow.svg" alt="arrow"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="locations">
+    <div class="container">
+      <div class="locations_details">
+        <div class="locations_text">
+          <h3>50+ </h3>
+          <p>Offices Worldwide</p>
+        </div>
+        <div class="locations_text">
+          <h3>100+ </h3>
+          <p>Travel Partners</p>
+        </div>
+        <div class="locations_text">
+          <h3>500+ </h3>
+          <p>Global Attraction</p>
+        </div>
+        <div class="locations_text">
+          <h3>300+ </h3>
+          <p>Employees</p>
+        </div>
+        <div class="locations_text">
+          <h3>18000+ </h3>
+          <p>Contracted Hotels</p>
+        </div>
+      </div>
+    </div>
+    <img src="assets/images/locations/locations.svg" alt="locations">
+  </section>
+
+  <section id="why-us" class="differentiators">
+
+    <div class="container">
+      <div id="differentiator-slider" class="differentiator-slider">
+        <div class="differentiator-slider-main">
+          <div class="slide"><img src="assets/images/differentiators/differentiators.svg" alt="differentiators"></div>
+          <div class="slide"><img src="assets/images/differentiators/technology.svg" alt="differentiators"></div>
+          <div class="slide"><img src="assets/images/differentiators/robustloyalty.svg" alt="differentiators"></div>
+          <div class="slide"><img src="assets/images/differentiators/competitivepricing.svg" alt="differentiators">
+          </div>
+          <div class="slide"><img src="assets/images/differentiators/sales.svg" alt="differentiators"></div>
+          <div class="slide"><img src="assets/images/differentiators/vastrange.svg" alt="differentiators"></div>
+        </div>
+        <div class="tab-wrapper">
+          <div class="differentiators_details">
+            <div class="commonHeading">
+              <label>The  Differentiators</label>
+              <h2>
+                The  <span class="lastword">Differentiators <span class="dot"></span></span>
+              </h2>
+            </div>
+          </div>
+          <div class="differentiator-slider-thmb">
+            <div class="slide" onclick="dthumbClick(this)">
+              <div class='differentiators_tab'>
+                <div class="differentiators_text">
+                  <h3>Widest Network of Hotels</h3>
+                  <p>With over 16 years of experience and longstanding relationships with the top hotel brands we are
+                    able to give you access to quality accommodations at competitive rates. </p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="slide" onclick="dthumbClick(this)">
+              <div class='differentiators_tab'>
+                <div class="differentiators_text">
+                  <h3>Technology and data-driven strengths</h3>
+                  <p>We make optimum use of technology to ensure efficiency and accuracy from in-depth Data Analytics to
+                    Deal Tracking and detailed Reports </p>
+                </div>
+
+              </div>
+            </div>
+            <div class="slide" onclick="dthumbClick(this)">
+              <div class='differentiators_tab'>
+                <div class="differentiators_text">
+                  <h3>Robust Loyalty & Rewards Program</h3>
+                  <p>We source the best from every corner of the world to reward our partners through our loyalty and
+                    rewards programs.</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="slide" onclick="dthumbClick(this)">
+              <div class='differentiators_tab'>
+                <div class="differentiators_text">
+                  <h3>Competitive Pricing</h3>
+                  <p>Our relationships combined with our exceptional negotiation skill make sure that you get the best
+                    pricing </p>
+                </div>
+
+              </div>
+            </div>
+            <div class="slide" onclick="dthumbClick(this)">
+              <div class='differentiators_tab'>
+                <div class="differentiators_text">
+                  <h3>Sales & Training Support</h3>
+                  <p>Dedicated sales team is available 24/7 to provide timely assistance in case of need and ensure that
+                    your clients/group’s travel is flawless and hassle-free.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+            <div class="slide" onclick="dthumbClick(this)">
+              <div class='differentiators_tab'>
+                <div class="differentiators_text">
+                  <h3>Vast Range of Products</h3>
+                  <p> possess the full capacity to offer solutions for B2B hotel bookings, End-to-end event
+                    management, Brand activation solutions, Business travel, Domestic & outbound tours and Interactive
+                    eLearning for its clients.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="differentiator-mobile">
+        <div class="differentiators_details">
+          <div class="commonHeading">
+            <label>The  Differentiators</label>
+            <h2>
+              The  <span class="lastword">Differentiators <span class="dot"></span></span>
+            </h2>
+          </div>
+        </div>
+        <div class='differentiators_tab'>
+          <div class="differentiators_text">
+            <h3>Widest Network of Hotels</h3>
+            <p>With over 16 years of experience and longstanding relationships with the top hotel brands we are able to
+              give you access to quality accommodations at competitive rates. </p>
+          </div>
+          <img src="assets/images/differentiators/hotelsmobile.svg" alt="differentiators">
+        </div>
+
+        <div class='differentiators_tab'>
+          <div class="differentiators_text">
+            <h3>Technology and data-driven strengths</h3>
+            <p>We make optimum use of technology to ensure efficiency and accuracy from in-depth Data Analytics to Deal
+              Tracking and detailed Reports </p>
+          </div>
+          <img src="assets/images/differentiators/technologymobile.svg" alt="differentiators">
+        </div>
+
+        <div class='differentiators_tab'>
+          <div class="differentiators_text">
+            <h3>Robust Loyalty & Rewards Program</h3>
+            <p>We source the best from every corner of the world to reward our partners through our loyalty and rewards
+              programs.</p>
+          </div>
+          <img src="assets/images/differentiators/loyaltymobile.svg" alt="differentiators">
+        </div>
+
+
+        <div class='differentiators_tab'>
+          <div class="differentiators_text">
+            <h3>Competitive Pricing</h3>
+            <p>Our relationships combined with our exceptional negotiation skill make sure that you get the best pricing
+            </p>
+          </div>
+          <img src="assets/images/differentiators/competitivemobile.svg" alt="differentiators">
+        </div>
+
+
+        <div class='differentiators_tab'>
+          <div class="differentiators_text">
+            <h3>Sales & Training Support</h3>
+            <p>Dedicated sales team is available 24/7 to provide timely assistance in case of need and ensure that your
+              clients/group’s travel is flawless and hassle-free.
+            </p>
+          </div>
+          <img src="assets/images/differentiators/salesmobile.svg" alt="differentiators">
+        </div>
+
+
+        <div class='differentiators_tab'>
+          <div class="differentiators_text">
+            <h3>Vast Range of Products</h3>
+            <p> possess the full capacity to offer solutions for B2B hotel bookings, End-to-end event management,
+              Brand activation solutions, Business travel, Domestic & outbound tours and Interactive eLearning for its
+              clients.</p>
+          </div>
+          <img src="assets/images/differentiators/vastmobile.svg" alt="differentiators">
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+  <section class="team">
+    <div class="container">
+      <div class="commonHeading">
+        <label>Team</label>
+        <h2>Meet Our <span class="lastword">Team <span class="dot"></span></span></h2>
+      </div>
+      <div class="team_details">
+        <div class="team_card">
+          <div class="team_imagewrapper">
+            <img src="assets/images/team/prrithvirajsingh.png" alt="Prrithviraj Singh">
+            <div class="hidden">
+              <p>Prrithviraj Singh A chartered accountant by training, Prrithviraj has spent over three decades with his
+                first love – the travel and tourism industry. He brings his professional training to bear on the process
+                and practices at Eastbound Group. Having headed some of India’s largest travel companies he commands
+                immense respect and cache within the travel fraternity and clients.</p>
+            </div>
+          </div>
+          <div class="team_name">
+            <div>
+              <h3>Prrithviraj Singh</h3>
+              <p>Manging Director</p>
+            </div>            
+          </div>
+          <div class="team_text">
+            <p>Prrithviraj Singh A chartered accountant by training, Prrithviraj has spent over three decades with his
+              first love – the travel and tourism industry. He brings his professional training to bear on the process
+              and practices at Eastbound Group. Having headed some of India’s largest travel companies he commands
+              immense respect and cache within the travel fraternity and clients.</p>
+          </div>
+        </div>
+        <div class="team_card">
+          <div class="team_imagewrapper">
+            <img src="assets/images/team/anirbansengupta.png" alt="anirbansengupta">
+            <div class="hidden">
+              <p>Anirban is a senior management professional in the travel industry. His career over 20 years has been
+                in sales and marketing working with hospitality brands such as Oberoi, Hyatt, Accor Hotels, Kempinski
+                hotels. He is driving the growth trajectory of  and is instrumental in the success of this company.
+              </p>
+            </div>
+          </div>
+          <div class="team_name">
+            <div>
+              <h3>Anirban Sengupta</h3>
+              <p>COO</p>
+            </div>
+            <a href="" target="_blank"><img
+                src="assets/images/team/teamlinkedin.svg" alt="teamlinkedin"></a>
+          </div>
+          <div class="team_text">
+            <p>Anirban is a senior management professional in the travel industry. His career over 20 years has been in
+              sales and marketing working with hospitality brands such as Oberoi, Hyatt, Accor Hotels, Kempinski hotels.
+              He is driving the growth trajectory of  and is instrumental in the success of this company.</p>
+          </div>
+        </div>
+        <div class="team_card">
+          <div class="team_imagewrapper">
+            <img src="assets/images/team/vishalsharma.png" alt="vishalsharma">
+            <div class="hidden">
+              <p>
+                With more than 23 years of industry experience, Vishal has handled different roles managing many impressive portfolios with organisations such as Yatra, Make My Trip and Agoda.
+                <br>
+                Backed with strong influencing and negotiation skills Vishal's responsibilities at  include supply chain management, integrations, contracting and Identifying new supply channels.
+              </p>
+            </div>
+          </div>
+          <div class="team_name">
+            <div>
+              <h3>Vishal Sharma</h3>
+              <p>Head of Supply</p>
+            </div>
+            <a href="" target="_blank"><img
+                src="assets/images/team/teamlinkedin.svg" alt="teamlinkedin"></a>
+          </div>
+          <div class="team_text">
+            <p>
+              With more than 23 years of industry experience, Vishal has handled different roles managing many impressive portfolios with organisations such as Yatra, Make My Trip and Agoda.
+              <br>
+              Backed with strong influencing and negotiation skills Vishal's responsibilities at  include supply chain management, integrations, contracting and Identifying new supply channels.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <div class="commonHeading">
+        <label>Testimonials</label>
+        <h2>In Our Clients' <span class="lastword">Experience <span class="dot"></span></span></h2>
+      </div>
+      <div class="testimonials_details">
+        <div class="aboutus_image">
+          <a href="javascript:void(0)" onclick="modalOpen(this)" data-src="https://www.youtube.com/embed/F1Myv4MPx8E"
+            data-modal-id="aboutusVideoModal">
+            <div class="aboutus_imagewrapper testimonials_imagewrapper">
+              <img src="assets/images/testimonials/testinomials.svg" alt="aboutus Image">
+            </div>
+            <div class="aboutus_videoicon">
+
+              <span><img src="assets/images/aboutus/videoplay.svg" alt="aboutus video icon"></span>
+              <span>Play Video</span>
+            </div>
+          </a>
+        </div>
+        <div class="testimonials_text">
+          <p>It is a pleasure to let you know that my clients are so happy with their tour. Thank you for the
+            impeccable service and compliments for both drivers. They had a wonderful time throughout.</p>
+          <h4>Divya Sehgal</h4>
+          <p>Worldwide Holidays</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="partner">
+    <div class="container">
+      <div class="commonHeading">
+        <label>Become Partner</label>
+        <h2>How to Join <span class="lastword">Us <span class="dot"></span></span></h2>
+      </div>
+      <div class="partner_details">
+        <div class="partner_text">
+          <img src="assets/images/partner/resgistration.svg" alt="become partner">
+          <h3>Travel Agency Resgistration</h3>
+          <p>A wide range of contracted hotels, properties ranges from boutique hotels, chains hotel, independent
+            properties and apartments</p>
+        </div>
+        <div class="partner_text">
+          <img src="assets/images/partner/getaccountactivated.svg" alt="become partner">
+          <h3>Get Account Activated</h3>
+          <p>Get access to 150,000 rooms across 1000+ locations</p>
+        </div>
+        <div class="partner_text">
+          <img src="assets/images/partner/bookingsforcustomer.svg" alt="become partner">
+          <h3>Make Bookings for Customer</h3>
+          <p>Real-time availability and booking confirmations</p>
+        </div>
+      </div>
+      <div class="partner_btn">
+        <a class="orange-btn" href="" target="_blank">Register Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="faq_details">
+      <div class="faq_imagewrapper">
+        <img src="assets/images/faq/faq.svg" alt="faqs">
+      </div>
+      <div class="faq_text">
+        <div class="commonHeading">
+          <label>Quick Solutions</label>
+          <h2>Frequently Asked <span class="lastword">Questions <span class="dot"></span></span></h2>
+        </div>
+        <div class="faq_content">
+          <div class="faq_tab">
+            <div class="faq_header">
+              <h3>
+                <button onclick="showFaq(this)" type="button"> <span class="title active">Who is eligible to become a
+                     partner?</span>
+                  <img src="assets/images/faq/faqactiveicon.svg" alt="faq icon" class="closeimage">
+                  <img src="assets/images/faq/faqicon.svg" alt="faq icon" class="plusimage">
+                </button>
+              </h3>
+            </div>
+            <div class="faq_body show-faq">
+              <p>Any travel agency/agent is eligible to register with </p>
+            </div>
+          </div>
+          <div class="faq_tab">
+            <div class="faq_header">
+              <h3>
+                <button onclick="showFaq(this)" type="button"> <span class="title">Is there a fee to register?</span>
+                  <img src="assets/images/faq/faqactiveicon.svg" alt="faq icon" class="closeimage">
+                  <img src="assets/images/faq/faqicon.svg" alt="faq icon" class="plusimage">
+                </button>
+              </h3>
+            </div>
+            <div class="faq_body">
+              <p>There is no charge for registering or using our service. It is absolutely free. </p>
+            </div>
+          </div>
+          <div class="faq_tab">
+            <div class="faq_header">
+              <h3>
+                <button onclick="showFaq(this)" type="button"> <span class="title">How do I know when the reservation is
+                    confirmed?</span>
+                  <img src="assets/images/faq/faqactiveicon.svg" alt="faq icon" class="closeimage">
+                  <img src="assets/images/faq/faqicon.svg" alt="faq icon" class="plusimage">
+                </button>
+              </h3>
+            </div>
+            <div class="faq_body">
+              <p>You will receive emails for Confirmation, Voucher, Invoice and Cancellation if any on your registered
+                email ids. </p>
+            </div>
+          </div>
+          <div class="faq_tab">
+            <div class="faq_header">
+              <h3>
+                <button onclick="showFaq(this)" type="button"> <span class="title">Can I modify or cancel a
+                    reservation?</span>
+                  <img src="assets/images/faq/faqactiveicon.svg" alt="faq icon" class="closeimage">
+                  <img src="assets/images/faq/faqicon.svg" alt="faq icon" class="plusimage">
+                </button>
+              </h3>
+            </div>
+            <div class="faq_body">
+              <p>Yes, you can modify or cancel a reservation from your account by opening the respective booking.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="subscribe_section">
+        <div class="footer_subscribetext">
+          <div class="commonHeading">
+            <h2>Stay Connected</h2>
+          </div>
+          <p>Sign up for our Newsletter and stay updated with news and offers</p>
+        </div>
+        <div class="footer_subscribeform">
+          <form>
+            <div class="emailinput">
+              <img src="assets/images/footer/gmailinput.svg" alt="gmailinput">
+              <input type="text" name="email" placeholder="Email" class="email" />
+            </div>
+            <button type="submit" class="orange-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer_details">
+        <div class="footer_brand">
+          <img src="assets/images/footer/footerlogo.svg" alt="logo" class="footerlogo" />
+          <p>Great experiences start with great partnerships. Great partnerships start at </p>
+          <div class="footerSociallinks">
+            <ul>
+              <li><a href="" target="_blank"><img src="assets/images/footer/facebook.svg" alt="facebook"></a></li>              
+              <li><a href="" target="_blank"><img src="assets/images/footer/instagram.svg" alt="instagram"></a></li>
+              <li><a href="" target="_blank"><img src="assets/images/footer/linkedin.svg" alt="linkedin"></a></li>
+          </div>
+        </div>
+        <div class="footer_linkscontent">
+          <div class="footer_links">
+            <h6>Company</h6>
+            <ul>
+              <li>
+                <a target="_blank" href="">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="">
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank()">Privacy Policy </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_links">
+            <h6>Services</h6>
+            <ul>
+              <li>
+                <a target="_blank" href="">
+                  Hotels Rooms
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="">
+                  Attractions Activities
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="">
+                  Corporate / MICE
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="">
+                  Academy
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="">
+                  Special Interest Groups
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_links">
+            <h6>Get in touch</h6>
+            <div>
+              <a href="" target="_blank">
+                <img src="assets/images/footer/location.svg" alt="location" />
+                <p>898, Udyog Vihar, Phase I, Gurgaon-122016, Haryana, India</p>
+              </a>
+            </div>
+            <div>
+              <a href="mailto:">
+                <img src="assets/images/footer/gmail.svg" alt="gmail" />
+                <p>enquiry@.travel</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_copyrights">
+        <p>© 2021-2022 All Rights Reserved</p>
+      </div>
+    </div>
+  </footer> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+  <script src="./assets/js/slick.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script>
+
+    (function () {
+
+      var menu = document.querySelector('.header_links'),
+        togglelink = document.querySelector('.nav_toggle');
+
+      togglelink.addEventListener('click', function (e) {
+        menu.classList.toggle('active');
+        togglelink.classList.toggle('active');
+        e.preventDefault();
+      });
+
+    })();
+
+  </script>
+</body>
+
+</html>
