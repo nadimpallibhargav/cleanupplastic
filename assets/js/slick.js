@@ -14,9 +14,6 @@ if ($(".association-slider").length) {
     });
 }
 
-
-
-
 if ($(".product__slider-main").length) {
   var $slider = $(".product__slider-main")
     .on("init", function (slick) {
@@ -27,7 +24,7 @@ if ($(".product__slider-main").length) {
       slidesToScroll: 1,
       autoplay: true,
       lazyLoad: "ondemand",
-      autoplaySpeed: 3500,
+      autoplaySpeed: 5500,
       asNavFor: ".product__slider-thmb",
       arrows: true,
       pauseOnHover: false,
