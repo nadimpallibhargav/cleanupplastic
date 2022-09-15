@@ -91,7 +91,8 @@ button.nav_toggle.active span:last-child {
 }
 
 header .logo img {
-  border-radius: 25px;
+  border-radius: 50px;
+  max-height: 75px;
 }
 
 .header_links {
@@ -115,6 +116,15 @@ header .logo img {
   line-height: 177%;
   color: #191919;
   margin-right: 40px;
+}
+
+header.sticky .container {
+  border-bottom: none;
+  padding: 6px 25px;
+}
+
+header.sticky .logo img {
+  max-height: 50px;
 }
 
 @media screen and (max-width: 1200px) {

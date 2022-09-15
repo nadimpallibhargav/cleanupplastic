@@ -6,7 +6,8 @@
       from(#003d56),
       to(#003348));
   background: linear-gradient(180deg, #003d56 0%, #003348 100%);
-  padding-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer .subscribe_section {
@@ -84,16 +85,21 @@
 .footer_details {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 64px;
-  padding-bottom: 110px;
+  padding-bottom: 10px;
 }
 
 .footer_details a {
   display: inline-block;
 }
 
+.footer_brand img{
+  max-width: 50px;
+  border-radius: 50px;
+  margin-bottom: 12px;
+}
+
 .footer_brand {
-  flex-basis: 35%;
+  flex-basis: 35%;  
 }
 
 .footer_brand p {

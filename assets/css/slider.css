@@ -165,8 +165,8 @@
 @media only screen and (max-width: 991px) {
   .pagination-wrapper img,
   .wrapper .slick-arrow {
-    bottom: unset;
-    top: 60%;
+    bottom: 0;
+    top: unset;
   }
 }
 
