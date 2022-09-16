@@ -4,7 +4,6 @@
 @import "./header.css";
 @import "./slider.css";
 @import "./footer.css";
-@import "./modal.css";
 
 /* common styles start  */
 body {
@@ -23,6 +22,16 @@ body {
 
 img {
   max-width: 100%;
+}
+
+#sliderSplit {
+  display: flex;
+  gap: 5%;
+  width: 96%;
+}
+
+#sliderSplit h2 {
+  flex-basis: 50%;
 }
 
 /* about us styles start */
@@ -91,14 +100,6 @@ img {
 
 /* container styles end here */
 
-/* what we do image wrapper styles */
-@media (max-width: 1250px) {
-  .panels_imagewrapper {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
 /* what we do image wrapper styles end here */
 
 /* common styles */
@@ -164,50 +165,23 @@ img {
     width: 100%;
   }
 
-  .footer .subscribe_section {
-    flex-direction: column;
-  }
-
-  .footer_subscribetext {
-    margin-bottom: 32px;
-  }
-
-  .footer_details {
-    flex-direction: column;
-  }
-
-  .footer_brand {
-    margin-bottom: 30px;
-  }
-
   .footerSociallinks {
     max-width: 203px;
-  }
-
-  .aboutus .commonHeading.mobileHeading {
-    display: block;
-  }
-
-  .aboutus .commonHeading.desktopHeading {
-    display: none;
-  }
-
-  .aboutus_details {
-    flex-direction: column-reverse;
-    position: relative;
-    align-items: flex-start;
   }
 
   .aboutus_image {
     margin-bottom: 42px;
   }
-
-  .aboutus_text {
-    padding-right: 0px;
-  }
   
 }
 
+@media only screen and (max-width: 767px) {
+  #sliderSplit {
+    height: 30vh;
+    flex-direction: column;
+    gap: 30%;
+  }
+}
 @media only screen and (max-width: 768px) {
   section {
     padding: 64px 0px;
@@ -221,7 +195,7 @@ img {
 
   header .container {
     padding: 10px 20px;
-  }
+  }  
 
   .slider_bottom {
     height: 70px;
@@ -240,38 +214,8 @@ img {
     padding-top: 40px;
   }
 
-  .footer_subscribetext p {
-    font-size: 14px;
-    line-height: 150%;
-    max-width: 100%;
-  }
-
-  .footer_subscribeform .emailinput {
-    padding: 11px 24px;
-    margin-bottom: 12px;
-  }
-
-  .footer_subscribeform .emailinput input {
-    font-size: 12px;
-  }
-
-  .footer_subscribeform .emailinput img {
-    max-width: 14px;
-    margin-right: 8px;
-  }
-
   img.footerlogo {
     max-width: 55px;
-  }
-
-  .footer .subscribe_section {
-    padding-bottom: 42px;
-  }
-
-  .footer_brand p {
-    max-width: 100%;
-    padding-top: 16px;
-    color: #bdbec4;
   }
 
   .footerSociallinks img {
@@ -287,63 +231,9 @@ img {
     flex-wrap: wrap;
   }
 
-  .footer_links {
-    margin-bottom: 30px;
-  }
-
-  .footer_links:last-child {
-    margin-bottom: 0px;
-  }
-
   .footer_linkscontent h6 {
     font-weight: 500;
     line-height: 150%;
-  }
-
-  .footer_links {
-    flex-basis: 100%;
-  }
-
-  .footer_brand,
-  .footer_linkscontent {
-    flex-basis: 100%;
-    margin-bottom: 20px;
-  }
-
-  .footer_copyrights {
-    flex-direction: column;
-  }
-
-  .footer_copyrights div:first-child {
-    margin-bottom: 12px;
-  }
-
-  .footer_copyrights ul li:nth-child(2) {
-    display: none;
-  }
-
-  .footer_copyrights ul {
-    flex-direction: column;
-    align-items: start;
-  }
-
-  .footer_copyrights ul li {
-    padding-right: 0px;
-    padding-bottom: 12px;
-  }
-
-  .footer_copyrights ul li:last-child {
-    padding-bottom: 0px;
-  }
-
-  .footer_copyrights p,
-  .footer_copyrights ul li:last-child a {
-    color: #ccd6db;
-    line-height: 160%;
-  }
-
-  .footer_copyrights {
-    padding-bottom: 0px;
   }
 
   .aboutus_imagewrapper {
