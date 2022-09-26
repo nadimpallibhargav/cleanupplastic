@@ -35,7 +35,7 @@ if ($(".product__slider-main").length) {
       $(".product__slider-thmb").fadeIn(1000);
     })
     .slick({
-      slidesToShow: 5,
+      slidesToShow: 6,
       slidesToScroll: 1,
       lazyLoad: "ondemand",
       asNavFor: ".product__slider-main",
