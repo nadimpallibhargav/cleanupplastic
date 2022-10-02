@@ -8,6 +8,7 @@
   height: 100vh;
   width: 100%;
   object-fit: cover;
+  object-position: left;
   filter: brightness(0.8);
 }
 .wrapper .slick-arrow {
@@ -39,10 +40,14 @@
 }
 .slider_content {
   position: absolute;
-  top: 32%;
+  top: 25%;
   left: 8%;
   color: #ffffff;
   width: 50%;
+}
+
+.slider_content.w-100{
+  width: 100%;
 }
 
 .slider_content h2 {

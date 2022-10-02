@@ -22,7 +22,7 @@ if ($(".product__slider-main").length) {
     .slick({
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       lazyLoad: "ondemand",
       autoplaySpeed: 5500,
       asNavFor: ".product__slider-thmb",
