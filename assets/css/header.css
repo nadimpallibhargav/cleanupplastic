@@ -112,7 +112,8 @@ header .logo img {
 
 header.sticky .container {
   border-bottom: none;
-  padding: 6px 25px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 header.sticky .logo img {
@@ -150,7 +151,8 @@ header.sticky .logo img {
 
   header .container {
     position: relative;
-    padding: 6px 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
 
   .header_links {

@@ -1,11 +1,5 @@
 /* footer styles start  */
 .footer {
-  background: -webkit-gradient(linear,
-      left top,
-      left bottom,
-      from(#003d56),
-      to(#003348));
-  background: linear-gradient(180deg, #003d56 0%, #4ca753 100%);
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -37,7 +31,7 @@
   max-width: 85%;
   padding-bottom: 32px;
   padding-top: 24px;
-  color: #ffffff;
+  color: #000000;
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
@@ -69,7 +63,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 180%;
-  color: #ffffff;
+  color: #000000;
   padding-bottom: 12px;
 }
 
@@ -78,7 +72,7 @@
 }
 
 .footer_linkscontent li a:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 .footer_linkscontent li a,
@@ -86,7 +80,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
-  color: #ccd8dd;
+  color: #000000;
   margin-bottom: 12px;
 }
 
@@ -119,20 +113,20 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
-  color: #ccd6db;
+  color: #000000;
 }
 
 .footer_copyrights p{
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   text-align: center;
 }
 
 .footer_copyrights ul li:last-child a:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 .footer_copyrights a:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 .footer_brand, .footer_linkscontent {
