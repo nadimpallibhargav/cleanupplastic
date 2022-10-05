@@ -150,6 +150,7 @@ header.sticky .logo img {
 
   header .container {
     position: relative;
+    padding: 6px 25px;
   }
 
   .header_links {
@@ -205,5 +206,8 @@ header.sticky .logo img {
   .header_links ul,
   .header_actions {
     flex-direction: column;
+  }
+  header .logo img, header.sticky .logo img {
+    max-height: 30px;
   }
 }
