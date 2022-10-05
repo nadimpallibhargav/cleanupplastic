@@ -140,6 +140,7 @@
 }
 .product__slider-thmb .slide:last-child span {
   font-size: 18px;
+  font-weight: 600;
 }
 .product__slider-thmb .slide img {
   max-width: 23px;
@@ -306,6 +307,6 @@
   }
 
   .slider_content {
-    top: 16%;
+    top: 20%;
   }
 }
