@@ -88,6 +88,11 @@
   opacity: 0.8;
 }
 
+.footer_links p a{
+  justify-content: center;
+  color: #000000;
+} 
+
 .footer_links a:hover img {
   opacity: 1;
 }
