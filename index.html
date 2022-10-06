@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet" />  
   <link href="./assets/css/style.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
   <header id="header">
     <div class="container">
       <div class="logo">
-        <a href="index.html"> <img src="./assets/images/cleanupconcertLogo.webp"></a>
+        <a href="index.html"> <img src="./assets/images/cleanupconcertLogo.webp" alt="logo"></a>
       </div>
       <div class="header_links">
         <ul>
@@ -37,8 +38,8 @@
         
         <div class="slide">
           <picture>
-            <source media="(min-width: 768px)" srcset="./assets/images/beforeAfterCleanup.jpeg" />
-            <img src="./assets/images/beforeAfterCleanup.jpeg">
+            <source media="(min-width: 768px)" srcset="./assets/images/banner/landscape.webp" />
+            <img src="./assets/images/banner/landscape.webp" alt="coffee fields">
           </picture>
           <div class="slider_content">
             <h2>THIS IS US HERE !!!</h2>
@@ -46,8 +47,8 @@
         </div>
         <div class="slide">
           <picture>
-            <source media="(min-width: 768px)" srcset="./assets/images/beforeAfterCleanup.png" />
-            <img src="./assets/images/beforeAfterCleanupMobile.png">
+            <source media="(min-width: 768px)" srcset="./assets/images/beforeAfterCleanup.webp" />
+            <img src="./assets/images/beforeAfterCleanupMobile.webp" alt="cleaning plastic">
           </picture>
           <div class="slider_content">
             <h2>THIS IS ALSO US <br> HERE !!!</h2>
@@ -56,7 +57,7 @@
         <div class="slide">
           <picture>
             <source media="(min-width: 992px)" srcset="./assets/images/banner/attraction.webp" />
-            <img src="./assets/images/banner/attraction.webp">
+            <img src="./assets/images/banner/attraction.webp" alt="mountains">
           </picture>
           <div class="slider_content">
             <h2>ANSWER THIS QUESTION FIRST !!!</h2>
@@ -70,8 +71,8 @@
         </div>
         <div class="slide">
           <picture>
-            <source media="(min-width: 992px)" srcset="./assets/images/banner/concert.jpg" />
-            <img src="./assets/images/banner/concert.jpg">
+            <source media="(min-width: 992px)" srcset="./assets/images/banner/concert.webp" />
+            <img src="./assets/images/banner/concert.webp" alt="plastic cleanup">
           </picture>
 
           <div class="slider_content">
@@ -85,7 +86,7 @@
         <div class="slide">
           <picture>
             <source media="(min-width: 992px)" srcset="./assets/images/banner/academy.webp" />
-            <img src="./assets/images/banner/academy.webp">
+            <img src="./assets/images/banner/academy.webp" alt="people cleaning plastic">
           </picture>
           <div class="slider_content">
             <h2>CLEANUP</h2>
@@ -98,7 +99,7 @@
         <div class="slide">
           <picture>
             <source media="(min-width: 992px)" srcset="./assets/images/banner/corporate.webp" />
-            <img src="./assets/images/banner/corporate.webp">
+            <img src="./assets/images/banner/corporate.webp" alt="cleanup concert">
           </picture>
           <div class="slider_content w-100">
             <h2>CONCERT</h2>
@@ -117,19 +118,19 @@
         </div>
       </div>
       <div class="pagination-wrapper">
-        <img src="assets/images/banner/icons/leftarrow.png" class="prev-img" alt="Prev">
-        <img src="assets/images/banner/icons/rightarrow.png" class="next-img" alt="Next">
+        <img src="./assets/images/banner/icons/leftarrow.webp" class="prev-img" alt="Prev">
+        <img src="./assets/images/banner/icons/rightarrow.webp" class="next-img" alt="Next">
       </div>
       <div class="slider_bottom">
         <div class="container">
           <div class="product__slider-thmb">
             <div class="slide" onclick="thumbClick(this)">
-              <span> <img src="./assets/images/banner/icons/location.png"></span>
+              <span> <img src="./assets/images/banner/icons/location.webp" alt="pin icon"></span>
               <p>Latitude and Longitude</p>
               </a>
             </div>
             <div class="slide" onclick="thumbClick(this)">
-              <span> <img src="./assets/images/banner/icons/mountains.png"></span>
+              <span> <img src="./assets/images/banner/icons/mountains.webp" alt="mountains icon"></span>
               <p>Latitude and Longitude</p>
               </a>
             </div>
@@ -139,17 +140,16 @@
               </a>
             </div>
             <div class="slide" onclick="thumbClick(this)">
-              <span> <img src="./assets/images/banner/icons/bulb.png"></span>
+              <span> <img src="./assets/images/banner/icons/bulb.webp" alt="bulb icon"></span>
               <p>READ THE PROBLEM</p>
               </a>
             </div>
             <div class="slide" onclick="thumbClick(this)">
-              <span> <img src="./assets/images/banner/icons/people.png"></span>
+              <span> <img src="./assets/images/banner/icons/people.webp" alt="people icon"></span>
               <p>CLEANUP</p>
               </a>
             </div>
             <div class="slide" onclick="thumbClick(this)">
-              <!-- <span> <img src="https://emojiguide.com/wp-content/uploads/platform/google/43317.png"></span> -->
               <span>♫</span>
               <p>CLEANUP CONCERT</p>
               </a>
@@ -166,7 +166,7 @@
         <h2>OUR EMBLEM <span class="lastword"> <span class="dot"></span></span></h2>
       </div>
       <div class="aboutus_imagewrapper">
-        <img src="assets/images/cleanupConcertBanner.webp" alt="aboutus Image">
+        <img src="./assets/images/cleanupConcertBanner.webp" alt="cleanup concert">
       </div>
     </div>
   </section>
@@ -192,13 +192,13 @@
     <div id="association-slider">
       <div class="association-slider">
         <div class="slide">
-          <img src="./assets/images/bharatScouts.webp">
+          <img src="./assets/images/bharatScouts.webp" alt="bharat scouts">
         </div>
         <div class="slide">
-          <img src="./assets/images/indianMedicalAssociation.webp">
+          <img src="./assets/images/indianMedicalAssociation.webp" alt="Indian Medical Association">
         </div>
         <div class="slide">
-          <img src="./assets/images/barCouncilOfIndia.webp">
+          <img src="./assets/images/barCouncilOfIndia.webp" alt="Bar Council Of India">
         </div>
       </div>
     </div>
@@ -253,9 +253,9 @@
           <h6>Follow Us</h6>
           <div class="footerSociallinks">
             <ul>
-              <li><a href="" target="_blank"><img src="assets/images/footer/facebook.svg" alt="facebook"></a></li>              
-              <li><a href="https://www.instagram.com/cleanupconcert/" target="_blank"><img src="assets/images/footer/instagram.svg" alt="instagram"></a></li>
-              <li><a href="" target="_blank"><img src="assets/images/footer/linkedin.svg" alt="linkedin"></a></li>
+              <li><a href="" target="_blank"><img src="./assets/images/footer/facebook.svg" alt="facebook"></a></li>              
+              <li><a href="https://www.instagram.com/cleanupconcert/" target="_blank"><img src="./assets/images/footer/instagram.svg" alt="instagram"></a></li>
+              <li><a href="" target="_blank"><img src="./assets/images/footer/linkedin.svg" alt="linkedin"></a></li>
           </div>
         </div>
         <div class="footer_linkscontent">
@@ -263,13 +263,13 @@
             <h6>Get in touch</h6>
             <div>
               <a href="" target="_blank">
-                <img src="assets/images/footer/location.svg" alt="location" />
+                <img src="./assets/images/footer/location.svg" alt="location" />
                 <p>Chikkamagaluru, Karnataka, India</p>
               </a>
             </div>
             <div>
               <a href="mailto:cleanupconcert@gmail.com">
-                <img src="assets/images/footer/gmail.svg" alt="gmail" />
+                <img src="./assets/images/footer/gmail.svg" alt="gmail" />
                 <p>cleanupconcert@gmail.com</p>
               </a>
             </div>
